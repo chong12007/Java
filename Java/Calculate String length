@@ -1,0 +1,11 @@
+计算String的字数
+
+    public static int calculateLength() {
+        String str = "ABc";
+        int lengthStr=0;
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            lengthStr++;
+        }
+        return lengthStr;
+    }//calculateLength end
