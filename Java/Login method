@@ -1,0 +1,27 @@
+登入
+比较string
+
+public static boolean login(){
+        //Define the correct username and password
+        String rightUsername="Alice";
+        String rightPassword="123456";
+        boolean loginStatus;
+
+        //User input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Username : ");
+        String username = sc.next();
+        System.out.print("Enter Password : ");
+        String password = sc.next();
+
+        //Compare username and password
+        if(username.equals(rightUsername) && password.equals(rightPassword))
+        {  System.out.println("Login Successful");
+            loginStatus = true;
+        }
+        else{
+            System.out.println("Login failed");
+            loginStatus = false;
+            }
+        return loginStatus;
+        }//login end
