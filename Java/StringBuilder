@@ -1,0 +1,21 @@
+
+
+    public static void stringBuilderDemo(){
+        StringBuilder sb = new StringBuilder("abc");
+
+        //direct add to behind sb value 拼接
+        sb.append(1);
+        sb.append(2.3);
+        sb.append(true);
+
+        //reverse all sb value
+        sb.reverse();
+
+        //get length of sb
+        int length = sb.length();
+        System.out.println(length);
+
+        //turn sb into String
+        String str = sb.toString();
+        System.out.println(str);
+    }
