@@ -1,0 +1,14 @@
+截取部分String位
+substring()
+
+    public static void subStringDemo(){
+        String phoneNum = "01012345678";
+
+        //Get first three char
+        String firstThreeChar = phoneNum.substring(0,3);
+        System.out.println(firstThreeChar);
+
+        //Get last three char
+        String lastThreeChar = phoneNum.substring(8);
+        System.out.println(lastThreeChar);
+    }//subStringDemo end
