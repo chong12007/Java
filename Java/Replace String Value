@@ -1,0 +1,19 @@
+Replace String value
+
+   public static void stringReplaceDemo() {
+        String orginalWord = "Hello World!";
+
+        //change hello world to hello human
+        String modifyWord = orginalWord.replace("World", "Human");
+        System.out.println(modifyWord);
+
+        //Define target word to change
+        String[] whatToReplaceArr = {"World", "Money", "Man", "Woman"};
+
+        //Replace all target word to Human2
+        String modifyWord2 = "Hello World Money Man Woman";
+        for (int i = 0; i < whatToReplaceArr.length; i++) {
+            modifyWord2 = modifyWord2.replace(whatToReplaceArr[i], "Human2");
+        }
+        System.out.println(modifyWord2);
+    }
