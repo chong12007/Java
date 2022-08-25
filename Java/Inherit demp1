@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+       Son s = new Son();
+       s.SonFunction();
+    }
+}
+class Father{ 
+    String name="Let";
+    String eat="eat";
+}
+
+ class Son extends Father { 
+    String name = "them";
+    public void SonFunction() {
+        String name = "cake";
+        //print let
+        System.out.println(super.name);
+        //print them
+        System.out.println(this.name);
+        //print eat
+        System.out.println(eat);
+        //print cake
+        System.out.println(name);
+    }
+}
