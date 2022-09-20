@@ -1,0 +1,17 @@
+int [] arrName = new int [3] dynamic
+int [] arrName = {1, 2, 33} Static and given value
+Double arrName[] = new double [10] //not recommanded
+
+Array for class object
+ User [] userArr = new User[10];
+         
+userArr[0] = new admin("Ali", "abc123");
+userArr[1] = new member("Abu", "abc123");
+userArr[2] = new User("Bill", "abc123");
+
+print array value
+
+for(int i = 0; i < 3; i++)
+{
+print(arrName[i]);
+|
