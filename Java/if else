@@ -1,0 +1,9 @@
+$a = 5;
+
+$b = $a > 10 ? 100 : 0
+if a > 100 then b = 100 else b = 0
+
+int a, b, c = 165,150,210;
+
+int tmpTallest = ( a>b ? a : b);
+int tallest = tmpTallest > c ? tmpTallest : c;
